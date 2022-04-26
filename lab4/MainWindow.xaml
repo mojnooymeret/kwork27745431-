@@ -1,0 +1,72 @@
+﻿<Window x:Class="lab4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab4"
+        mc:Ignorable="d"
+        Title="Банкир" Height="415" Width="800" ResizeMode="NoResize">
+    <Grid>
+
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Content="Предоставленно ресурсов" Margin="183,0,0,0"/>
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Content="Максимальная потребность" Margin="464,0,0,0"/>
+
+        <Grid x:Name="matrixOne" Height="146" VerticalAlignment="Top" HorizontalAlignment="Left"  Margin="429,16,0,0" Width="214">
+            <Label Content="A" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,26,0,0"/>
+            <Label Content="B" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,57,0,0"/>
+            <Label Content="C" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,88,0,0" RenderTransformOrigin="0.528,2.365"/>
+            <Label Content="D" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,119,0,0" RenderTransformOrigin="0.37,-0.474"/>
+            <Label Content="R1" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30,4,0,0"/>
+            <Label Content="R2" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="81,4,0,0"/>
+            <Label Content="R3" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="131,4,0,0"/>
+            <Label Content="R4" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="182,4,0,0"/>
+            <TextBox x:Name="AR12" Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="23,30,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="BR12" Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="23,61,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="CR12" Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="23,92,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="DR12" Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="23,123,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="AR22" Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="73,30,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="BR22" Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="73,61,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="CR22"  Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="73,92,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="DR22" Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="73,123,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="AR32" Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="123,30,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="BR32" Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="123,61,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="CR32" Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="123,92,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="DR32" Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="123,123,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="AR42" Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="174,30,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="BR42" Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="174,61,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="CR42" Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="174,92,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="DR42" Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="174,123,0,0" HorizontalContentAlignment="Center"/>
+        </Grid>
+
+        <Grid x:Name="matrixTwo" Height="146" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="142,16,0,0" Width="214">
+            <Label Content="A" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,26,0,0"/>
+            <Label Content="B" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,57,0,0"/>
+            <Label Content="C" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,88,0,0" RenderTransformOrigin="0.528,2.365"/>
+            <Label Content="D" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,119,0,0" RenderTransformOrigin="0.37,-0.474"/>
+            <Label Content="R1" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30,4,0,0"/>
+            <Label Content="R2" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="81,4,0,0"/>
+            <Label Content="R3" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="131,4,0,0"/>
+            <Label Content="R4" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="182,4,0,0"/>
+            <TextBox x:Name="AR11" Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="23,30,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="BR11" Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="23,61,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="CR11"  Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="23,92,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="DR11"  Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="23,123,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="AR21"  Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="73,30,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="BR21"  Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="73,61,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="CR21" Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="73,92,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="DR21"  Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="73,123,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="AR31" Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="123,30,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="BR31"  Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="123,61,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="CR31"  Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="123,92,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="DR31"  Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="123,123,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="AR41"  Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="174,30,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="BR41"  Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="174,61,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="CR41"  Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="174,92,0,0" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="DR41"  Height="22" Width="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="174,123,0,0" HorizontalContentAlignment="Center"/>
+        </Grid>
+
+        <Button Height="41" Content="Рассчитать" Margin="9,171,10,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Click="Calc"/>
+
+        <Label x:Name="conclusion" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="9,217,0,0"/>
+    </Grid>
+</Window>
